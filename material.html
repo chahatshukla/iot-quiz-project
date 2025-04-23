@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Study Material</title>
+  <style>
+   body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f5f5f5;
+  background-image: radial-gradient(#d1c4e9 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+h1 {
+  background-color: #9c27b0;
+  color: white;
+  padding: 20px 0;
+  margin: 0;
+  font-size: 2.5em;
+  text-align: center;
+}
+
+.chapter-list {
+  padding: 25px;
+  list-style: none;
+  margin: 0 auto;
+  max-width: 900px;
+  font-size: 25px;
+  color: #9c27b0;
+ text-align: left;
+ margin-left: 20px;
+}
+
+.chapter-list li {
+  margin: 15px 0;
+  font-size: 1.2em;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.chapter-list li:hover {
+  transform: scale(1.05);
+  background-color: #f3e5f5;
+  padding: 10px;
+  border-radius: 8px;
+
+}
+
+.chapter-link {
+  color: #297036;
+  font-size: 1.1em;
+  text-decoration: none;
+}
+
+.chapter-link:hover {
+  text-decoration: underline;
+}
+
+.content {
+  display: none;
+  margin-left: 20px;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.active .content {
+  display: block;
+  opacity: 1;
+}
+
+/* 🔻 RESPONSIVE DESIGN 🔻 */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2em;
+    padding: 15px 10px;
+  }
+
+  .chapter-list {
+    padding: 15px;
+    font-size: 20px;
+  }
+
+  .chapter-list li {
+    font-size: 1em;
+    margin: 10px 0;
+    padding: 8px;
+  }
+
+  .chapter-link {
+    font-size: 1em;
+  }
+
+  .content {
+    margin-left: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.7em;
+  }
+
+  .chapter-list {
+    font-size: 18px;
+  }
+
+  .chapter-list li {
+    font-size: 0.95em;
+  }
+
+  .chapter-link {
+    font-size: 0.95em;
+  }
+}
+
+
+  </style>
+</head>
+<body>
+
+  <h1>Study Material</h1>
+
+  <ul class="chapter-list" id="chapterList">
+    <!-- JavaScript will generate Chapter 1 to 12 links here -->
+  </ul>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const chapterDetails = [
+        {
+          chapter: 1,
+          files: ['chapter1_part1.pdf', 'chapter1_part2.pdf', 'chapter1_part3.pdf']
+        },
+        {
+          chapter: 2,
+          files: ['chapter2.pdf']
+        },
+        {
+          chapter: 3,
+          files: ['chapter3.pdf']
+        },
+        {
+          chapter: 4,
+          files: ['chapter4.pdf']
+        },
+        {
+          chapter: 5,
+          files: ['chapter5.pdf']
+        },
+        {
+          chapter: 6,
+          files: ['chapter6.pdf']
+        },
+        {
+          chapter: 7,
+          files: ['chapter7.pdf']
+        },
+        {
+          chapter: 8,
+          files: ['chapter8.pdf']
+        },
+        {
+          chapter: 9,
+          files: ['chapter9.pdf']
+        },
+        {
+          chapter: 10,
+          files: ['chapter10.pdf']
+        },
+        {
+          chapter: 11,
+          files: ['chapter11.pdf']
+        },
+        {
+          chapter: 12,
+          files: ['chapter12.pdf']
+        }
+      ];
+
+      const chapterList = document.getElementById('chapterList');
+
+      // Loop through all chapters
+      chapterDetails.forEach(chapter => {
+        const li = document.createElement('li');
+        const chapterTitle = document.createElement('strong');
+        chapterTitle.innerText = `Chapter ${chapter.chapter}: `;
+        li.appendChild(chapterTitle);
+
+        // Add click event for showing PDF links
+        li.addEventListener('click', function() {
+          this.classList.toggle('active');
+        });
+
+        const content = document.createElement('div');
+        content.classList.add('content');
+
+        // Loop through each PDF file of the chapter
+        chapter.files.forEach(file => {
+          const a = document.createElement('a');
+          a.href = `materials/${file}`; // Path to PDF
+          a.target = '_blank';
+          a.className = 'chapter-link';
+          a.innerText = file; // Display file name
+          content.appendChild(a);
+          content.appendChild(document.createElement('br')); // Line break between files
+        });
+
+        li.appendChild(content);
+        chapterList.appendChild(li);
+      });
+    });
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0 20px;
+    background-color: #fdfdfd;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #4a148c;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .question {
+    background-color: #f3e5f5;
+    border: 1px solid #ce93d8;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 15px 0;
+    text-align: left;
+    display: block;
+  }
+  
+  .question h3,
+  .question p {
+    text-align: left;
+    margin: 0 0 10px 0;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .container {
+        width: 90%; /* Container ko tablet ke liye adjust karo */
+    }
+  
+    h1 {
+        font-size: 1.8em; /* Font size ko adjust karo tablet ke liye */
+    }
+  
+    .question {
+        padding: 10px; /* Question box ka padding reduce karo */
+    }
+  
+    .question h3,
+    .question p {
+        font-size: 1em; /* Text size ko adjust karo tablet ke liye */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .container {
+        width: 100%; /* Full width mobile ke liye */
+    }
+  
+    h1 {
+        font-size: 1.6em; /* Font size aur chhota karo mobile ke liye */
+    }
+  
+    .question {
+        padding: 8px; /* Padding ko mobile ke liye reduce karo */
+    }
+  
+    .question h3,
+    .question p {
+        font-size: 0.9em; /* Text size ko aur adjust karo mobile ke liye */
+    }
+  }
+  

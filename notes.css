@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  font-family: 'Segoe UI', sans-serif;
+  background-image: radial-gradient(#d1c4e9 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+h1 {
+  background-color: #9c27b0;
+  color: white;
+  padding: 20px 0;
+  margin: 0;
+  text-align: center;
+  font-size: 2.5em;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 40px 30px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: #e1bee7;
+  color: #4a148c;
+  width: 100%;
+  max-width: 250px;
+  height: 70px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px #0000001a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3em;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.card:hover {
+  background-color: #d1c4e9;
+  transform: scale(1.03);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+      padding: 20px 20px; /* Padding ko tablet ke liye adjust karo */
+  }
+
+  h1 {
+      font-size: 2.2em; /* Font size ko adjust karo tablet ke liye */
+  }
+
+  .card {
+      max-width: 100%; /* Card ko full width ke liye set karo tablet ke liye */
+      font-size: 1.2em; /* Font size ko thoda chhota karo */
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+      padding: 10px; /* Mobile pe padding thoda reduce karo */
+  }
+
+  h1 {
+      font-size: 1.8em; /* Font size ko aur chhota karo mobile ke liye */
+  }
+
+  .card {
+      max-width: 100%; /* Card ko full width ke liye set karo mobile ke liye */
+      font-size: 1.1em; /* Font size ko aur adjust karo */
+      height: 60px; /* Card ki height thoda reduce karo mobile ke liye */
+  }
+}

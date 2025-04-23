@@ -1,0 +1,120 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f3e5f5;
+  padding: 40px;
+}
+
+h2 {
+  color: #6a1b9a;
+  text-align: center;
+}
+
+.question {
+  background-color: #e1bee7;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 10px;
+  font-size: 1.2em;
+}
+
+label {
+  font-weight: normal;
+  font-size: 20px;
+}
+
+input[type="radio"]:disabled + label {
+  opacity: 0.6;
+}
+
+.correct {
+  background-color: #d4edda;
+  color: green;
+  font-weight: bold;
+  padding: 1px;
+  border-radius: 5px;
+}
+
+.wrong {
+  background-color: #f8d7da;
+  color: red;
+  font-weight: bold;
+  padding: 1px;
+  border-radius: 5px;
+}
+
+.complete-quiz-btn {
+  font-size: 15px;
+  padding: 10px 30px;
+  background-color: #854085;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.complete-quiz-btn:hover {
+  background-color: #b595bb;
+}
+
+.next-btn {
+  font-size: 15px;
+  padding: 10px 30px;
+  background-color: #854085;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.next-btn:hover {
+  background-color: #b595bb;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  body {
+      padding: 20px; /* Padding ko tablet ke liye adjust karo */
+  }
+
+  h2 {
+      font-size: 2em; /* Heading size ko tablet ke liye adjust karo */
+  }
+
+  .question {
+      font-size: 1.1em; /* Question font size ko adjust karo */
+  }
+
+  label {
+      font-size: 18px; /* Label size ko tablet ke liye adjust karo */
+  }
+
+  .complete-quiz-btn, .next-btn {
+      padding: 8px 25px; /* Buttons ko tablet pe chhota karo */
+      font-size: 14px; /* Font size thoda chhota karo */
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+      padding: 15px; /* Mobile ke liye padding reduce karo */
+  }
+
+  h2 {
+      font-size: 1.8em; /* Heading font size aur chhota karo */
+  }
+
+  .question {
+      font-size: 1em; /* Question font size ko mobile ke liye adjust karo */
+  }
+
+  label {
+      font-size: 16px; /* Label font size ko mobile ke liye adjust karo */
+  }
+
+  .complete-quiz-btn, .next-btn {
+      padding: 8px 20px; /* Buttons ko mobile pe chhota karo */
+      font-size: 13px; /* Font size ko mobile ke liye adjust karo */
+  }
+}

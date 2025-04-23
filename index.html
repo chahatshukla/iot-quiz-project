@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IOT Quiz</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #ffffff;
+      font-family: 'Segoe UI', sans-serif;
+      text-align: center;
+    }
+
+    h1 {
+      background-color: #9c27b0;
+      color: white;
+      padding: 20px 0;
+      margin: 0;
+      font-size: 2.5em;
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 40px;
+      padding: 50px 20px;
+      margin-bottom: 400px;
+    }
+
+    .card {
+      background-color: #9c27b0;
+      color: white;
+      width: 200px;
+      height: 200px;
+      border-radius: 20px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.5em;
+      cursor: pointer;
+      transition: 0.3s ease;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+      background-color: #ab47bc;
+    }
+
+    footer {
+      background-color: #9c27b0;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      font-size: 1em;
+      font-size: 18px;
+      
+    }
+
+    @media (max-width: 768px) {
+      h1 {
+        font-size: 2em;
+        padding: 15px 0;
+      }
+
+      .container {
+        padding: 30px 10px;
+        gap: 20px;
+      }
+
+      .card {
+        width: 90%;
+        height: 150px;
+        font-size: 1.3em;
+      }
+
+      footer {
+        font-size: 16px;
+        padding: 8px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>IOT Quiz</h1>
+
+  <div class="container">
+    <div class="card" onclick="window.location.href='quiz.html'">Quiz</div>
+    <div class="card" onclick="window.location.href='notes.html'">Notes</div>
+    <div class="card" onclick="window.location.href='material.html'">Material</div>
+  </div>
+
+  <footer>
+    <p>Made with ❤️ by Chahat Shukla</p>
+  </footer>
+
+</body>
+</html>

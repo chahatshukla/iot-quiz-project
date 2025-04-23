@@ -1,0 +1,83 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f3f3f3;
+  background-image: radial-gradient(#d1c4e9 1px, transparent 1px);
+  background-size: 40px 40px;
+  padding: 20px;
+}
+
+.assignment {
+  background-color: #b28ddb;
+  margin: 10px 0;
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  width: 180px;
+  text-align: center;
+}
+
+.btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #a46edc;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.btn-container {
+  text-align: center;
+}
+
+.btn:hover {
+  background-color: #8a56c2;
+}
+
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  body {
+    padding: 20px; /* Padding ko tablet ke liye maintain karo */
+  }
+
+  .assignment {
+    font-size: 18px; /* Font size ko tablet ke liye thoda adjust karo */
+    width: 100%; /* Assignment ki width ko full width ke liye set karo */
+    padding: 15px; /* Padding ko thoda reduce karo tablet ke liye */
+  }
+
+  .btn {
+    font-size: 18px; /* Button ka font size thoda chhota karo tablet ke liye */
+    padding: 8px 16px; /* Button ka size thoda reduce karo tablet ke liye */
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    padding: 10px; /* Mobile ke liye padding reduce karo */
+  }
+
+  .assignment {
+    font-size: 16px; /* Font size ko mobile ke liye aur thoda chhota karo */
+    width: 100%; /* Assignment ki width ko full width ke liye set karo mobile pe */
+    padding: 8px; /* Padding ko mobile ke liye reduce karo */
+  }
+
+  .btn {
+    font-size: 16px; /* Button ka font size mobile ke liye thoda chhota karo */
+    padding: 6px 12px; /* Button ka size mobile ke liye chhota karo */
+  }
+
+  input[type="checkbox"] {
+    width: 18px; /* Checkbox size ko mobile ke liye chhota karo */
+    height: 18px; /* Checkbox size ko mobile ke liye chhota karo */
+  }
+}
