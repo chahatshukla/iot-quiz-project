@@ -144,7 +144,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const completeButton = document.createElement("button");
         completeButton.innerText = "Complete Quiz";
         completeButton.classList.add("complete-quiz-btn");
-        completeButton.addEventListener("click", () => {
+        completeButton.addEventListener("click", () => { 
           quizComplete(correct, wrong, totalQuestions);
         });
         quizContainer.appendChild(completeButton);

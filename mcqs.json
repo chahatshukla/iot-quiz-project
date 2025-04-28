@@ -384,8 +384,7 @@
                 "answer": "c. 14"
               },
               {
-                "question": "What does the following code do?",
-                "code": "int ledPin = 13;\nvoid setup() {\npinMode(ledPin, OUTPUT);\nfor (int i = 0; i < 3; i++) {\ndigitalWrite(ledPin, HIGH);\ndelay(1000);\ndigitalWrite(ledPin, LOW);\ndelay(500);\n}\n}\nvoid loop() {\n// Do nothing\n}",
+                "question": "What does the following code do?\n\n<pre>int ledPin = 13;\nvoid setup() {\npinMode(ledPin, OUTPUT);\nfor (int i = 0; i < 3; i++) {\ndigitalWrite(ledPin, HIGH);\ndelay(1000);\ndigitalWrite(ledPin, LOW);\ndelay(500);\n}\n}\nvoid loop() {\n// Do nothing\n}</pre>",
                 "options": [
                   "a) Blink 3 times with 1000ms ON and 500ms OFF",
                   "b) Blink 3 times with 500ms ON and 500ms OFF",
@@ -443,114 +442,144 @@
             
               "Assignment6": [
                 {
-                  "question": "Which of the following is/are current challenges in IoT?",
-                  "options": ["Large scale of co-operation", "Global heterogeneity", "Both (a) and (b)", "Neither (a) nor (b)"],
-                  "answer": "Both (a) and (b)"
-                },
-                {
-                  "question": "Statement: “Interoperability is not a characteristic of a product or system.” State True or False.",
-                  "options": ["True", "False"],
-                  "answer": "False"
-                },
-                {
-                  "question": "Interoperability is required because",
-                  "options": ["There are different programming languages", "There are different communication protocols", "Both (a) and (b)", "Neither (a) nor (b)"],
-                  "answer": "Both (a) and (b)"
-                },
-                {
-                  "question": "Statement: “Use of different programming languages such as JavaScript, Python, JAVA, and others is an example of heterogeneity in IoT. This brings in the need for interoperability.” State True or False.",
-                  "options": ["False", "True"],
-                  "answer": "True"
-                },
-                {
-                  "question": "Statement: “The interoperability between devices and device users in terms of message formats is called Systematic Interoperability.” State True or False.",
-                  "options": ["True", "False"],
-                  "answer": "False"
-                },
-                {
-                  "question": "What is the full form of UMB in IoT interoperability?",
-                  "options": ["Universal Meta Bridge", "Universal Main Bridge", "Universal Main Bracket", "None of these"],
-                  "answer": "None of these"
-                },
-                {
-                  "question": "Arduino is an open-source electronic programmable board. State True or False.",
-                  "options": ["True", "False"],
-                  "answer": "True"
-                },
-                {
-                  "question": "Additional electronic circuits are essential to load a program into the Arduino controller board. State True or False.",
-                  "options": ["True", "False"],
-                  "answer": "False"
-                },
-                {
-                  "question": "Arduino UNO has _________ number of Digital I/O pins.",
-                  "options": ["8", "13", "14", "None of these"],
-                  "answer": "14"
-                },
-                {
-                  "question": "What does the following code do?\n\nint ledPin = 13;\nvoid setup() {\npinMode(ledPin, OUTPUT);\nfor (int i = 0; i < 3; i++) {\ndigitalWrite(ledPin, HIGH);\ndelay(1000);\ndigitalWrite(ledPin, LOW);\ndelay(500);\n}\n}\nvoid loop() {\n// Do nothing\n}",
+                  "question": "State True or False.\n\nStatement: “Python is popular for embedded application development as it is a very lightweight programming language.”",
                   "options": [
-                    "a) Blink 3 times with 1000ms ON and 500ms OFF",
-                    "b) Blink 3 times with 500ms ON and 500ms OFF",
-                    "c) Blink 3 times with 1000ms ON and 1000ms OFF",
-                    "d) Stay ON continuously"
+                    "a. True",
+                    "b. False"
                   ],
-                  "answer": "a) Blink 3 times with 1000ms ON and 500ms OFF"
+                  "answer": "a. True"
                 },
                 {
-                  "question": "How many types of loops will you find in Arduino Programming?",
-                  "options": ["1", "2", "3", "4"],
-                  "answer": "3"
-                },
-                {
-                  "question": "Choose the right option for if/conditional operator.",
+                  "question": "State True or False.\n\nAdafruit provides a library to work with DHT22 Sensor.",
                   "options": [
-                    "Val = (condition)?(Statement 1):(Statement 2)",
-                    "Val = (condition)?(Statement 2):(Statement 1)",
-                    "Val = (condition):(Statement 1)?(Statement 2)",
-                    "Val = (condition):(Statement 2)?(Statement 1)"
+                    "a. True",
+                    "b. False"
                   ],
-                  "answer": "Val = (condition)?(Statement 1):(Statement 2)"
+                  "answer": "a. True"
                 },
                 {
-                  "question": "What is the purpose of calling dht.begin(); in the setup() function?",
+                  "question": "Consider the following piece of Python code. What is the output?\n\n<pre>x = [4, 5, 6]\ny = [str(x[0] + 1), str(len(x) * 2) + '&Code']\nz = y[1].split('&')\nprint(z[1])</pre>",
                   "options": [
-                    "A) To initialize the Serial Monitor",
-                    "B) To start communication with the DHT sensor",
-                    "C) To set the temperature and humidity values to zero",
-                    "D) To define the data pin for the sensor"
+                    "a) 5",
+                    "b) 12",
+                    "c) Code",
+                    "d) &Code"
                   ],
-                  "answer": "B) To start communication with the DHT sensor"
+                  "answer": "c) Code"
                 },
                 {
-                  "question": "What function is used to read the humidity value from the DHT sensor?",
+                  "question": "State True or False.\n\nStatement: “To indicate different blocks of code, Python follows rigid indentation.”",
                   "options": [
-                    "A) dht.getHumidity();",
-                    "B) dht.readTemp();",
-                    "C) dht.readHumidity();",
-                    "D) dht.getTemperature();"
+                    "a. True",
+                    "b. False"
                   ],
-                  "answer": "C) dht.readHumidity();"
+                  "answer": "a. True"
                 },
                 {
-                  "question": "What function is used to set the servo motor to a specific angle?",
+                  "question": "What is the output of the following line of code in Python?\n\n<pre>>> print \"Hi, Welcome to python!\"</pre>",
                   "options": [
-                    "A) ServoDemo.move()",
-                    "B) ServoDemo.rotate()",
-                    "C) ServoDemo.write()",
-                    "D) ServoDemo.setAngle()"
+                    "a. Hi, Welcome to python!",
+                    "b. “Hi, Welcome to python!”",
+                    "c. Hi, Welcome to python",
+                    "d. None of these"
                   ],
-                  "answer": "C) ServoDemo.write()"
+                  "answer": "a. Hi, Welcome to python!"
                 },
                 {
-                  "question": "State which of the following is/are correct for stationary wireless sensor networks.",
+                  "question": "During remote server access by a Raspberry Pi, where the Raspberry Pi acts as a client, the client needs the following?",
                   "options": [
-                    "Topology cannot be changed automatically.",
-                    "Node failure may result in partition of networks.",
-                    "Both (a) and (b)",
-                    "None of these"
+                    "a. Only IP address of server",
+                    "b. Only port number",
+                    "c. Both server IP address and port number",
+                    "d. Client’s IP address"
                   ],
-                  "answer": "Both (a) and (b)"
+                  "answer": "c. Both server IP address and port number"
+                },
+                {
+                  "question": "State whether the following command to install the PIL library is correct or not.\n\n<pre>sudo pip install pillow</pre>",
+                  "options": [
+                    "a. Correct",
+                    "b. Incorrect"
+                  ],
+                  "answer": "a. Correct"
+                },
+                {
+                  "question": "What is the purpose of the \"w\" mode in the open() function in Python?",
+                  "options": [
+                    "A) To read a file",
+                    "B) To write data to a file, overwriting existing content",
+                    "C) To append data to a file",
+                    "D) To open a file in read and write mode"
+                  ],
+                  "answer": "B) To write data to a file, overwriting existing content"
+                },
+                {
+                  "question": "What will be the output of the given Python program when reading from the file?\n\n<pre>with open(\"PythonProgram.txt\", \"w\") as file:\n    file.write(\"Writing data\")\nwith open(\"PythonProgram.txt\", \"r\") as file:\n    f = file.read()\nprint('Reading from the file\\n')\nprint(f)</pre>",
+                  "options": [
+                    "A) Writing data",
+                    "B) Reading from the file\nWriting data",
+                    "C) Error: File not found",
+                    "D) None of the above"
+                  ],
+                  "answer": "B) Reading from the file\nWriting data"
+                },
+                {
+                  "question": "Can we configure Raspberry Pi as a File Server?",
+                  "options": [
+                    "a. Yes",
+                    "b. No"
+                  ],
+                  "answer": "a. Yes"
+                },
+                {
+                  "question": "Which command is used to configure the Raspberry Pi for the camera module?",
+                  "options": [
+                    "A) sudo camera-config",
+                    "B) sudo raspi-config",
+                    "C) sudo enable-camera",
+                    "D) sudo pi-setup"
+                  ],
+                  "answer": "B) sudo raspi-config"
+                },
+                {
+                  "question": "What is the final step after enabling the camera in the Raspberry Pi configuration?",
+                  "options": [
+                    "A) Restart the camera service",
+                    "B) Run a camera test command",
+                    "C) Reboot the Raspberry Pi",
+                    "D) Reinstall the Raspberry Pi OS"
+                  ],
+                  "answer": "C) Reboot the Raspberry Pi"
+                },
+                {
+                  "question": "Which command Exits the nano editor?",
+                  "options": [
+                    "a. Ctrl + X",
+                    "b. Ctrl + O",
+                    "c. Ctrl + K",
+                    "d. None of these"
+                  ],
+                  "answer": "a. Ctrl + X"
+                },
+                {
+                  "question": "In a temperature-controlled fan system using a relay, when should the fan turn on?",
+                  "options": [
+                    "A) When the relay is manually triggered",
+                    "B) When the surrounding temperature is lower than a predefined threshold",
+                    "C) When the surrounding temperature exceeds a predefined threshold",
+                    "D) When the battery voltage drops below a certain level"
+                  ],
+                  "answer": "C) When the surrounding temperature exceeds a predefined threshold"
+                },
+                {
+                  "question": "What does the following line of code do?\n\n<pre>raspistillcapture -o image.jpg</pre>",
+                  "options": [
+                    "a. Captures video feed",
+                    "b. Captures still image",
+                    "c. Both (a) and (b)",
+                    "d. None of these"
+                  ],
+                  "answer": "d. None of these"
                 }
               ],
             
