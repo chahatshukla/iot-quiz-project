@@ -610,7 +610,7 @@
                 "answer": "Enabling SDN to incorporate mobility"
               },
               {
-                "question": "During remote server access using socket programming what is the utility of the .<socket_name>.listen() function?",
+                "question": "During remote server access using socket programming what is the utility of the &lt;socket_name&gt;.listen() function?",
                 "options": ["To create a new socket", "To bind the socket to connection", "To wait for clients to connect", "To close the connection"],
                 "answer": "To wait for clients to connect"
               },
@@ -1041,7 +1041,8 @@
                 "answer": "c. Artificial Intelligence (AI)"
               },
               {
-                "question": "Which of the following statements are true about the HAN standards?",
+                "question": "Which of the following statements are true about the HAN standards? \n\nStatement I: Physical and MAC layers are defined by IEEE802.15.4.\nStatement II: Network layer is defined by Zigbee.\nStatement III: Application layer is defined by IEEE802.15.4 ",
+          
                 "options": [
                   "a. Statements I and II",
                   "b. Statements I and III",
