@@ -675,7 +675,7 @@
                   "c. An SDN protocol tailored for IoT devices",
                   "d. A physical connectivity protocol."
                 ],
-                "Answer": "c. An SDN protocol tailored for IoT devices"
+                "answer": "c. An SDN protocol tailored for IoT devices"
               },
               {
                 "question": "With respect to Mobi-Flow, how does Mobi-Flow fare in comparison to Conventional networking in terms of message overhead?",
@@ -685,7 +685,7 @@
                   "c. Mobi-Flow = Conventional",
                   "d. None of the given"
                 ],
-                "Answer": "b. Mobi-Flow < Conventional"
+                "answer": "b. Mobi-Flow < Conventional"
               },
               {
                 "question": "Virtual Machines came before Cloud Computing.",
@@ -693,7 +693,7 @@
                   "a. True",
                   "b. False"
                 ],
-                "Answer": "a. True"
+                "answer": "a. True"
               },
               {
                 "question": "Private cloud services cannot provide Software-as-a-Service (SaaS).",
@@ -701,7 +701,7 @@
                   "a. True",
                   "b. False"
                 ],
-                "Answer": "b. False"
+                "answer": "b. False"
               },
               {
                 "question": "Which among the following is a solution for mobility-aware flow rule placement in SDIoT?",
@@ -711,7 +711,7 @@
                   "c. Mobi-Flow",
                   "d. M-Flow"
                 ],
-                "Answer": "c. Mobi-Flow"
+                "answer": "c. Mobi-Flow"
               },
               {
                 "question": "An organization A wants to deploy a cloud infrastructure, whereby it wants to push majority of the data to a cloud whose servers can be situated anywhere within the globe, but it wants certain private data to be pushed only to cloud servers that are present on-premise and are accessible by only authenticated members of the organization. In this context which among the following deployment model should be used?",
@@ -721,7 +721,7 @@
                   "c. Hybrid Cloud",
                   "d. Any of these"
                 ],
-                "Answer": "c. Hybrid Cloud"
+                "answer": "c. Hybrid Cloud"
               },
               {
                 "question": "Which among the following is the most on-premise cloud deployment model?",
@@ -731,7 +731,7 @@
                   "c. IaaS",
                   "d. PaaS"
                 ],
-                "Answer": "a. Private Cloud"
+                "answer": "a. Private Cloud"
               },
               {
                 "question": "Which of the following type of client requires constant communication/connection with the cloud server?",
@@ -741,7 +741,7 @@
                   "c. Both thin and thick clients",
                   "d. None of these"
                 ],
-                "Answer": "a. Thin client"
+                "answer": "a. Thin client"
               },
               {
                 "question": "What does ‘CIA’ in cloud data security stand for?",
@@ -751,7 +751,7 @@
                   "c. Congestion, Integrity, Authentication",
                   "d. Criticality, Integrity, Accountability"
                 ],
-                "Answer": "a. Confidentiality, Integrity, Availability"
+                "answer": "a. Confidentiality, Integrity, Availability"
               },
               {
                 "question": "When you are accessing Spotify online for listening to music from your browser without specifically installing them, which among the following cloud service models is the most appropriate one that you are using.",
@@ -761,7 +761,7 @@
                   "c. IaaS",
                   "d. DaaS"
                 ],
-                "Answer": "a. SaaS"
+                "answer": "a. SaaS"
               },
               {
                 "question": "With respect to Cloud Computing security, which of the following are necessary",
@@ -771,7 +771,7 @@
                   "c. Host Level Security but not Network Level Security",
                   "d. All of Network, Host and Application Level Security."
                 ],
-                "Answer": "d. All of Network, Host and Application Level Security."
+                "answer": "d. All of Network, Host and Application Level Security."
               },
               {
                 "question": "Data security and client authentication is an issue in which of the following cloud service models?",
@@ -781,7 +781,7 @@
                   "c. IaaS",
                   "d. All of them"
                 ],
-                "Answer": "d. All of them"
+                "answer": "d. All of them"
               },
               {
                 "question": "What is the role of a Hypervisor (most probable answer)?",
@@ -791,7 +791,7 @@
                   "c. To facilitate sensor fabrication",
                   "d. To communicate between switches themselves."
                 ],
-                "Answer": "b. To provide a platform for executing virtual machines"
+                "answer": "b. To provide a platform for executing virtual machines"
               },
               {
                 "question": "Which of the following is a limitation of SaaS?",
@@ -801,7 +801,7 @@
                   "c. Centralized control",
                   "d. None of these."
                 ],
-                "Answer": "c. Centralized control"
+                "answer": "c. Centralized control"
               },
               {
                 "question": "____________ means independent of device or location.",
@@ -811,7 +811,7 @@
                   "c. Agile",
                   "d. Ubiquitous"
                 ],
-                "Answer": "d. Ubiquitous"
+                "answer": "d. Ubiquitous"
               }
             ],
             "Assignment9":[
@@ -823,7 +823,7 @@
                   "c. Self Service",
                   "d. All of the above"
                 ],
-                "Answer": "d. All of the above"
+                "answer": "d. All of the above"
               },
               {
                 "question": "Fog computing is an intermediate layer between __________ and _________.",
@@ -833,7 +833,7 @@
                   "c. Cloud and server",
                   "d. None of these"
                 ],
-                "Answer": "b. Cloud and devices"
+                "answer": "b. Cloud and devices"
               },
               {
                 "question": "The managerial role is played by __________ in sensor-cloud architecture.",
@@ -843,7 +843,7 @@
                   "c. Neither a nor b",
                   "d. Both a and b"
                 ],
-                "Answer": "b. Sensor-Cloud Service Provider"
+                "answer": "b. Sensor-Cloud Service Provider"
               },
               {
                 "question": "Which of the following is not a component of OpenStack?",
@@ -853,7 +853,7 @@
                   "c. Swift",
                   "d. All of these"
                 ],
-                "Answer": "a. Suse"
+                "answer": "a. Suse"
               },
               {
                 "question": "Who coined the term Fog computing?",
@@ -863,7 +863,7 @@
                   "c. All of these",
                   "d. None of these"
                 ],
-                "Answer": "b. CISCO"
+                "answer": "b. CISCO"
               },
               {
                 "question": "The concept of ________ enables physical hardware to be shared among multiple entities.",
@@ -873,7 +873,7 @@
                   "c. Module virtualization",
                   "d. All of these"
                 ],
-                "Answer": "a. Hardware virtualization"
+                "answer": "a. Hardware virtualization"
               },
               {
                 "question": "Openstack is a free open source software for cloud framework simulation and experimentation with various cloud applications.",
@@ -881,7 +881,7 @@
                   "a. True",
                   "b. False"
                 ],
-                "Answer": "a. True"
+                "answer": "a. True"
               },
               {
                 "question": "In IoT, temporal sensitivity of data DOES NOT play an important role.",
@@ -889,7 +889,7 @@
                   "a. True",
                   "b. False"
                 ],
-                "Answer": "b. False"
+                "answer": "b. False"
               },
               {
                 "question": "Which among the following is NOT a component of OpenStack.",
@@ -899,7 +899,7 @@
                   "c. Stellar",
                   "d. Neutron"
                 ],
-                "Answer": "c. Stellar"
+                "answer": "c. Stellar"
               },
               {
                 "question": "Which among the following is the principal feature of sensor clouds, with respect to sensor nodes?",
@@ -909,7 +909,7 @@
                   "c. Sensor virtualization",
                   "d. Sensor collection"
                 ],
-                "Answer": "c. Sensor virtualization"
+                "answer": "c. Sensor virtualization"
               },
               {
                 "question": "The optimal composition of __________ is a management issue in sensor-cloud.",
@@ -919,7 +919,7 @@
                   "c. Caching",
                   "d. Virtual sensor nodes"
                 ],
-                "Answer": "d. Virtual sensor nodes"
+                "answer": "d. Virtual sensor nodes"
               },
               {
                 "question": "How many different types of caching mechanism are there in sensor cloud?",
@@ -929,7 +929,7 @@
                   "c. 2",
                   "d. 3"
                 ],
-                "Answer": "c. 2"
+                "answer": "c. 2"
               },
               {
                 "question": "Data from an IoT device is transferred to cloud via a network, which is then processed at the cloud and then a response is sent back to the IoT device from the cloud after processing. The time it takes for one-way data transfer between the node and cloud is 10s and the data processing time at the cloud is ‘x’ seconds. It takes a total of 25s for the entire to and fro transfer of data between the sensor and cloud along with processing at the cloud. What is the value of x?",
@@ -939,7 +939,7 @@
                   "c. 15s",
                   "d. 20s"
                 ],
-                "Answer": "b. 5s"
+                "answer": "b. 5s"
               },
               {
                 "question": "Which among the following is true?",
@@ -959,7 +959,7 @@
                   "c. Neutron",
                   "d. None of these"
                 ],
-                "Answer": "a. Horizon"
+                "answer": "a. Horizon"
               }
             ],
 
@@ -972,7 +972,7 @@
                   "c. Transport centers",
                   "d. All of the above"
                 ],
-                "Answer": "d. All of the above"
+                "answer": "d. All of the above"
               },
               {
                 "question": "With the help of ICT tools, it is possible to increase and improve citizen participation for a good governance based smart city",
@@ -980,7 +980,7 @@
                   "a. True",
                   "b. False"
                 ],
-                "Answer": "a. True"
+                "answer": "a. True"
               },
               {
                 "question": "Which among the following is a possible challenge with respect to smart parking lots?",
@@ -990,7 +990,7 @@
                   "c. Auto-charging of vehicles",
                   "d. All of the given"
                 ],
-                "Answer": "d. All of the given"
+                "answer": "d. All of the given"
               },
               {
                 "question": "What refers to combining information from multiple sensor sources?",
@@ -1000,7 +1000,7 @@
                   "c. Multi-sensor dissemination",
                   "d. Multi-sensor data fusion"
                 ],
-                "Answer": "d. Multi-sensor data fusion"
+                "answer": "d. Multi-sensor data fusion"
               },
               {
                 "question": "Which of the following is one of the theory of evidence-based mathematical methods of data fusion?",
@@ -1010,7 +1010,7 @@
                   "c. ANN",
                   "d. None of these"
                 ],
-                "Answer": "a. Belief function"
+                "answer": "a. Belief function"
               },
               {
                 "question": "With respect to data fusion from multiple IoT sensors, does outlier data present with a challenge?",
@@ -1018,7 +1018,7 @@
                   "a. No",
                   "b. Yes"
                 ],
-                "Answer": "b. Yes"
+                "answer": "b. Yes"
               },
               {
                 "question": "Which of the following is a phase of ICV development?",
@@ -1028,7 +1028,7 @@
                   "c. Vehicles connected to cloud",
                   "d. All of these"
                 ],
-                "Answer": "d. All of these"
+                "answer": "d. All of these"
               },
               {
                 "question": "With which of the following can the decision-making gap between the sensors and the actuators be bridged?",
@@ -1038,7 +1038,7 @@
                   "c. Artificial Intelligence (AI)",
                   "d. Arduino IDE"
                 ],
-                "Answer": "c. Artificial Intelligence (AI)"
+                "answer": "c. Artificial Intelligence (AI)"
               },
               {
                 "question": "Which of the following statements are true about the HAN standards?",
@@ -1048,7 +1048,7 @@
                   "c. Statements II and III",
                   "d. Statements I, II and III"
                 ],
-                "Answer": "a. Statements I and II"
+                "answer": "a. Statements I and II"
               },
               {
                 "question": "What is UPnP?",
@@ -1058,7 +1058,7 @@
                   "c. Universal Plug and Play",
                   "d. Unhindered Public Networking"
                 ],
-                "Answer": "c. Universal Plug and Play"
+                "answer": "c. Universal Plug and Play"
               },
               {
                 "question": "What are the disadvantages of V2X communication?",
@@ -1068,7 +1068,7 @@
                   "c. Efficient use of fuel",
                   "d. None of these"
                 ],
-                "Answer": "b. Tracking of movement"
+                "answer": "b. Tracking of movement"
               },
               {
                 "question": "Mobility of vehicles in a V2X environment limit which of the following that restricts the use of TCP/IP for V2X communication?",
@@ -1078,7 +1078,7 @@
                   "c. Backbone routing in IP core networks",
                   "d. Human-vehicle interaction"
                 ],
-                "Answer": "b. Localization of data"
+                "answer": "b. Localization of data"
               },
               {
                 "question": "In VANET, link durations are long and easily scaled-up to include all the vehicles on the road?",
@@ -1086,7 +1086,7 @@
                   "a. True",
                   "b. False"
                 ],
-                "Answer": "b. False"
+                "answer": "b. False"
               },
               {
                 "question": "CCN is derived from ICN architecture.",
@@ -1094,7 +1094,7 @@
                   "a. True",
                   "b. False"
                 ],
-                "Answer": "a. True"
+                "answer": "a. True"
               },
               {
                 "question": "In an ICV environment, efficient cooperation between different vehicles on a highway can lead to a safer scenario with respect to collision and avoiding incoming traffic.",
@@ -1102,7 +1102,7 @@
                   "a. True",
                   "b. False"
                 ],
-                "Answer": "a. True"
+                "answer": "a. True"
               }
             ],
             "Assignment11":[
@@ -1114,7 +1114,7 @@
                   "c. Intelligent power plants",
                   "d. Crop monitoring"
                 ],
-                "Answer": "c. Intelligent power plants"
+                "answer": "c. Intelligent power plants"
               },
               {
                 "question": "With respect to a smart grid, which stakeholders are potentially benefitted?",
@@ -1124,7 +1124,7 @@
                   "c. Both energy service provides and consumers",
                   "d. Neither energy service providers nor consumers."
                 ],
-                "Answer": "c. Both energy service provides and consumers"
+                "answer": "c. Both energy service provides and consumers"
               },
               {
                 "question": "It is not possible to perform load forecasting using a smart grid.",
@@ -1132,7 +1132,7 @@
                   "a. True",
                   "b. False"
                 ],
-                "Answer": "b. False"
+                "answer": "b. False"
               },
               {
                 "question": "With respect to the following Smart Grid architecture, which among the following is the most probable utility of the IP network?",
@@ -1143,7 +1143,7 @@
                   "d. IP network is used to induce more congestion"
                 ],
                 "image": "images/week11.png.png",
-                "Answer": "b. IP network is used to connect smart grid components globally for seamless data transfer"
+                "answer": "b. IP network is used to connect smart grid components globally for seamless data transfer"
               },
               {
                 "question": "Smart Home is an isolated concept and is not integrable with smart grid?",
@@ -1151,7 +1151,7 @@
                   "a. False",
                   "b. True"
                 ],
-                "Answer": "a. False"
+                "answer": "a. False"
               },
               {
                 "question": "Which of the following is a cloud application of smart grid?",
@@ -1161,7 +1161,7 @@
                   "c) Security",
                   "d) All of these"
                 ],
-                "Answer": "d) All of these"
+                "answer": "d) All of these"
               },
               {
                 "question": "Which of the following is not a vulnerability of Smart Grid?",
@@ -1171,7 +1171,7 @@
                   "c) Dynamic system attacks",
                   "d) None of these"
                 ],
-                "Answer": "d) None of these"
+                "answer": "d) None of these"
               },
               {
                 "question": "IIoT corresponds to which industrial revolution?",
@@ -1181,7 +1181,7 @@
                   "c. 3rd",
                   "d. 4th"
                 ],
-                "Answer": "d. 4th"
+                "answer": "d. 4th"
               },
               {
                 "question": "IIoT is inherently data intensive.",
@@ -1189,7 +1189,7 @@
                   "a. Yes",
                   "b. No"
                 ],
-                "Answer": "a. Yes"
+                "answer": "a. Yes"
               },
               {
                 "question": "Which among the following is one of the requirements and utility of IIoT?",
@@ -1199,7 +1199,7 @@
                   "c. Power plant decentralization",
                   "d. Power plant denotification"
                 ],
-                "Answer": "b. Power plant virtualization"
+                "answer": "b. Power plant virtualization"
               },
               {
                 "question": "Smart Grid follows which type of flow of energy?",
@@ -1209,7 +1209,7 @@
                   "c. Both a and b",
                   "d. Neither a nor b"
                 ],
-                "Answer": "a. Bidirectional"
+                "answer": "a. Bidirectional"
               },
               {
                 "question": "What is the Flow of data?",
@@ -1219,7 +1219,7 @@
                   "c. Generation > Acquisition > Storage > Analysis",
                   "d. None of these"
                 ],
-                "Answer": "c. Generation > Acquisition > Storage > Analysis"
+                "answer": "c. Generation > Acquisition > Storage > Analysis"
               },
               {
                 "question": "Intelligent transport system is least likely to render which of the following connectivity?",
@@ -1229,7 +1229,7 @@
                   "c. Vehicle-to-road infrastructure",
                   "d. Vehicle-to-home connectivity"
                 ],
-                "Answer": "d. Vehicle-to-home connectivity"
+                "answer": "d. Vehicle-to-home connectivity"
               },
               {
                 "question": "Approximately around ________ of the total data available currently in the world is unstructured.",
@@ -1239,7 +1239,7 @@
                   "c. 60 %",
                   "d. 80 %"
                 ],
-                "Answer": "d. 80 %"
+                "answer": "d. 80 %"
               },
               {
                 "question": "SQL manages ________________ data.",
@@ -1249,7 +1249,7 @@
                   "c) Structured",
                   "d) Non-organized"
                 ],
-                "Answer": "c) Structured"
+                "answer": "c) Structured"
               }
             ],
 
